@@ -22,17 +22,23 @@ body {
   margin: auto;
   overflow: hidden;
 }
-.highlights {
+/* .highlights {
   background-color: rgba(255, 255, 0, 0.5);
 }
 .highlights2 {
   background-color: rgba(255, 208, 0, 0.43);
-}
+} */
 a {
   text-decoration: none;
 }
 li {
   list-style: none;
+}
+
+section#aboutus,
+section#chooseUs {
+  margin: 190px 0;
+  padding: 80px 0;
 }
 
 /* Header Section*/
@@ -176,41 +182,32 @@ header a:focus {
 
 /* About Section  */
 
-#about {
-  float: left;
-  width: 50%;
-  text-align: center;
-  margin: 220px 5px 0px;
-}
-#about h1 {
-  font-size: 30px;
-  margin-bottom: 30px;
-}
-#about p {
-  font-size: 17px;
-}
-#aside {
-  float: right;
-  width: 40%;
-  text-align: center;
-  margin: 299px 5px;
-  background-color: rgb(0, 183, 255);
-  color: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px,
-    rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
-}
-#aside h1 {
-  font-size: 30px;
-  margin-bottom: 27px;
-  margin-top: 10px;
-}
-#aside p {
-  font-size: 17px;
+#aboutus {
+  display: flex;
+  background: #ededed;
 }
 
-/* Services Section end */
+#aboutText {
+  width: 50%;
+  float: left;
+}
+
+article#aboutText p {
+  width: 79%;
+  font-size: 16px;
+}
+
+article#aboutText h1 {
+  font-size: 32px;
+  margin-bottom: 34px;
+}
+
+#aboutImg img {
+  width: 524px;
+  float: right;
+}
+
+/* About Section end */
 
 /* Footer Section */
 
